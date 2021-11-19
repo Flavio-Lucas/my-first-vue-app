@@ -1,4 +1,9 @@
 # my-first-vue-app
+Seguem as imagens do projeto em sumilação que mostra como funciona em diversos tamanhos de dispositivos
+![img](./assets/image2.png)<br/>
+![img](./assets/image1.png)<br/>
+![img](./assets/image3.png)<br/>
+![img](./assets/image4.png)<br/>
 
 ## Project setup
 ```
