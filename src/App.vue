@@ -2,37 +2,22 @@
   <v-app>
     <System />
     <ToolBar />
-
     <v-main>
-      <HelloWorld />
+      <router-view />
     </v-main>
     <Footer />
   </v-app>
 </template>
-
 <script>
-import HelloWorld from "./components/HelloWorld";
-import Footer from "./components/Footer.vue";
-import ToolBar from "./components/ToolBar.vue";
 import System from "./components/System.vue";
+import ToolBar from "./components/ToolBar.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: "App",
-
   components: {
-    HelloWorld,
-    Footer,
-    ToolBar,
     System,
+    ToolBar,
+    Footer,
   },
-  watch: {
-    group() {
-      this.drawer = false;
-    },
-  },
-  data: () => ({
-    drawer: false,
-    group: null,
-  }),
 };
 </script>
