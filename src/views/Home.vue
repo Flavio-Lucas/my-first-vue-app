@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     getData() {
-      return this.$store.state.cards;
+      return this.$store.getters.getCards;
     },
   },
 };

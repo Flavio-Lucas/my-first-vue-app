@@ -29,5 +29,9 @@ export default new Vuex.Store({
   },
   mutations: {},
   actions: {},
-  getters: {}
+  getters: {
+    getCards: state => {
+      return state.cards;
+    }
+  }
 });
